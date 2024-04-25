@@ -2,6 +2,9 @@
 - [ ] Need a square logo for using as favicon
 - [ ] voice/pronounication for knotch word
 
+## Extra Features
+- [ ] Categories interative moment when clicked!
+
 ### Build device details
 - OS: Windows 11
 
