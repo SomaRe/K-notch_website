@@ -1,10 +1,10 @@
-import PhotoSwipeLightbox from '/static/scripts/photoswipe-lightbox.esm.min.js';
+import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe/dist/photoswipe-lightbox.esm.js';
 
 function initGallery(galleryId) {
     const gallery = new PhotoSwipeLightbox({
       gallery: `#${galleryId}`,
       children: 'figure',
-      pswpModule: () => import('/static/scripts/photoswipe.esm.min.js')
+      pswpModule: () => import('https://unpkg.com/photoswipe')
     });
     gallery.init();
   }
